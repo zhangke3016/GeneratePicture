@@ -4,13 +4,13 @@
 >仿简书选取页面内容生成图片效果。
 
 
-![GeneratePicture](http://upload-images.jianshu.io/upload_images/2157910-e0e045940d391968.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![GeneratePicture](gif/home.png)
 
 实现这个效果，首先要弄明白几个问题：
 >**一、**如何获取选取的网页内容
 >**二、**获取的网页内容如何加载显示
 
-![GeneratePicture](http://upload-images.jianshu.io/upload_images/2157910-ce0dec5de176c5ed.gif?imageMogr2/auto-orient/strip)
+![GeneratePicture](gif/home.gif)
 
 
 ##一、如何获取选取的网页内容
