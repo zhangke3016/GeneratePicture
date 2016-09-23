@@ -168,3 +168,26 @@ public void changeDay(String strData,String userInfo,String userName,String othe
 这里需要对保存的图片大小做下判断，防止创建图片过大OOM。
 
 到这里，基本功能就已经实现了。把图片分享给好友吧~
+
+###About me
+---
+An Android Developer in ZhengZhou.
+
+【[**我的简书地址**](http://www.jianshu.com/users/3c751e06dc32/latest_articles)】
+
+【[**我的CSDN地址**](http://blog.csdn.net/zhangke3016)】
+
+---
+###License
+=======
+Copyright  2016  zhangke
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at 
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
