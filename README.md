@@ -4,7 +4,7 @@
 >仿简书选取页面内容生成图片效果。
 
 
-![GeneratePicture](http://upload-images.jianshu.io/upload_images/2157910-69108cab29fa63b4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![GeneratePicture](http://upload-images.jianshu.io/upload_images/2157910-e0e045940d391968.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 实现这个效果，首先要弄明白几个问题：
 >**一、**如何获取选取的网页内容
