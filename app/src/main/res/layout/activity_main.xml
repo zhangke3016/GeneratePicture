@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mrzk.generpicture.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:onClick="Load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="vertical"/>
+    <Button
+        android:id="@+id/btn_getData"
+        android:onClick="ClickOnSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成图片分享"
+        android:padding="6dp"
+        android:background="#49BE38"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:visibility="gone"
+        android:gravity="center"/>
+</LinearLayout>
