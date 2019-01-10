@@ -13,7 +13,7 @@
 ![GeneratePicture](gif/home.gif)
 
 
-##一、如何获取选取的网页内容
+## 一、如何获取选取的网页内容
 
 获取选取的网页内容，通过Java来获取选取的网页内容很困难，而实现效果又必须要得到选取的网页内容，我们可以转换下思路，既然通过Java层不容易得到那通过JavaScript是不是要容易点呢，之后的实现确定这个思路是正确的，JavaScript很容易获取选取的网页内容。
 
@@ -65,7 +65,7 @@ public void getSelectedData(WebView webView) {
 ```
 上面的实现思路就是当我们要获取选取的网页内容时，给WebView注入一段自己写的JavaScript脚本，这段JavaScript代码的含义就是获取当前页面选取的内容包含html标签，调用`JSInterface.getText(txt)`方法将内容回传给Java的`getText(String text)`方法，我们设置`onGetDataListener.getDataListener(text)`回调方法，由需要的地方调用获取内容。
 
-##二、获取的网页内容如何加载显示
+## 二、获取的网页内容如何加载显示
 
 我们已经获取到了网页内容，按道理其实调用`TextView的setText(Html.fromHtml())`这个方法就可以显示我们选取的效果，但考虑到美观性以及截图保存功能、图片的正常显示，我选取用WebView来加载获取的网页内容。
 
@@ -169,7 +169,7 @@ public void changeDay(String strData,String userInfo,String userName,String othe
 
 到这里，基本功能就已经实现了。把图片分享给好友吧~
 
-###About me
+### About me
 ---
 An Android Developer in ZhengZhou.
 
@@ -178,7 +178,7 @@ An Android Developer in ZhengZhou.
 【[**我的CSDN地址**](http://blog.csdn.net/zhangke3016)】
 
 ---
-###License
+### License
 =======
 Copyright  2016  zhangke
 
